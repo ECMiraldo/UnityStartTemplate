@@ -8,17 +8,16 @@ namespace ObjectPooling
 {
     public class ObjectPool : Singleton<ObjectPool>
     {
-        [SerializeField] private List<ObjectPoolSettings> objectsToPool = new();
         private SerializedDictionary<ObjectPoolSettings, IObjectPool<GameObject>> pools = new();
 
-        protected override void Awake()
+        private void Start()
         {
-            base.Awake();
             CreatePools();
         }
         private void CreatePools()
         {
-            foreach (ObjectPoolSettings poolSettings in objectsToPool)
+            var allPoolSettings = Resources.LoadAll<ObjectPoolSettings>("ObjectPooling");
+            foreach (ObjectPoolSettings poolSettings in allPoolSettings)
             {
                 IObjectPool<GameObject> pool;
                 pool = new ObjectPool<GameObject>(
