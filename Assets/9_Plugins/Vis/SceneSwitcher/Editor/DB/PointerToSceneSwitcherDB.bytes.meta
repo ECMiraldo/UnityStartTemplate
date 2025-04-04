@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ba17eeae809c85b4b84b916b54c952f5
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148205
+  packageName: Hotkey Scene Switcher
+  packageVersion: 1.0
+  assetPath: Assets/Vis/SceneSwitcher/Editor/DB/PointerToSceneSwitcherDB.bytes
+  uploadId: 315655

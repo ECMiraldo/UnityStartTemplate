@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ea3ad49fb6ee00d4298925f207a1259f
+timeCreated: 1492285296
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148205
+  packageName: Hotkey Scene Switcher
+  packageVersion: 1.0
+  assetPath: Assets/Vis/SceneSwitcher/Editor/Scripts/Windows/ScenesSwitchHelperWindow.cs
+  uploadId: 315655

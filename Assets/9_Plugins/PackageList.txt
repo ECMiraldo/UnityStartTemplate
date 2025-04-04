@@ -1,0 +1,21 @@
+2D;
+AI Navigation;
+Input System;
+Addressables;
+Cinemachine;
+PostProcessing;
+Visual Effect Graph;
+Shader graph;
+
+
+URP;
+
+
+Newtonsoft's Json Serializer: https://docs.unity3d.com/Packages/com.unity.nuget.newtonsoft-json@2.0/manual/index.html
+Serialized Dictionary: https://assetstore.unity.com/packages/tools/utilities/serialized-dictionary-243052
+Elflatun SceneReference: https://github.com/starikcetin/Eflatun.SceneReference.git#4.1.1
+Hotkey Scene Switcher: https://assetstore.unity.com/packages/tools/utilities/hotkey-scene-switcher-148205
+DOTween : https://assetstore.unity.com/packages/package/27676
+Better Hierarchy : https://assetstore.unity.com/packages/tools/utilities/better-hierarchy-272963
+Unity Folder Icons: https://github.com/WooshiiDev/Unity-Folder-Icons?tab=readme-ov-file
+Naughty Attributes : https://assetstore.unity.com/packages/tools/utilities/naughtyattributes-129996
